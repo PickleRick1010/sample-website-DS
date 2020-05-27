@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Oxygen:wght@300;400&display=swap');
+
 /*----------------basics----------------*/
 *{
   margin:0;
@@ -19,12 +21,15 @@ h1 {
   letter-spacing: 0.2em;
   position: relative;
 }
-h3{
+header h3{
   letter-spacing: 0.2em;
-  text-align: center;
   position: relative;
+  letter-spacing: 0.2em;
+  position: relative;
+  margin-top: 16%;
+  margin-left: 10.4%;
   margin-bottom: 2%;
-  color: white;
+  color:white;
 }
 
 
@@ -48,7 +53,7 @@ ul{
 
 .navbar{
   position:absolute;
-  left:63%;
+  left:70%;
   bottom:0;
 }
 
@@ -62,13 +67,15 @@ ul{
   color:#fff;
   transition: ease-in 0.3s;
   padding:5px 10px;
+  border-radius: 2px;
 }
 
 .navbar li a:hover{
   padding:5px 10px;
   background-color: #fff;
-  color:#2ecc71;
+  color:#000;
   border-radius: 2px;
+  font-weight: bolder;
 }
 
 .header-text p{
@@ -156,13 +163,14 @@ ul{
   height:50vh;
   color:white;
   position:relative;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .footer h2{
   color:#2ecc71;
+  margin-bottom: 60px;
+  text-align: left;
 }
-
 .footer p{
   line-height: 30px;
   margin-top: 10px;

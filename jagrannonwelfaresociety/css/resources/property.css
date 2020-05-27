@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Oxygen:wght@300;400&display=swap');
 
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Oxygen', sans-serif;
+}
 body{
     overflow-x: hidden;
 }
@@ -25,31 +32,40 @@ header h1{
 
 header .navbar1{
     position: absolute;
-    left:60%;
+    left:70%;
 }
 
-.navbar1 ul{
-    list-style: none;
+ul{
+  float: right;
+  list-style-type: none;
+  width: 100%;
 }
 
-.navbar1 ul li{
-    display:inline-block;
-    font-size: 20px;
-    margin-right:10px;
+.navbar1{
+  position:absolute;
+  left:70%;
+  bottom:0;
+  top: 4%;
 }
 
-.navbar1 ul li a{
-    text-decoration: none;
-    color:#fff;
-    transition: ease-in 0.3s;
-    padding:5px 10px;
+.navbar1 li{
+  margin:10px;
+  display:inline-block;
 }
 
-.navbar1 ul li a:hover{
-    padding:5px 10px;
-    background-color: #fff;
-    color:#2ecc71;
-    border-radius: 2px;
+.navbar1 li a{
+  text-decoration: none;
+  color:#fff;
+  transition: ease-in 0.3s;
+  padding:5px 10px;
+}
+
+.navbar1 li a:hover{
+  padding:5px 10px;
+  background-color: #fff;
+  color:#000;
+  border-radius: 2px;
+  font-weight: bold;
 }
 
 header form{
