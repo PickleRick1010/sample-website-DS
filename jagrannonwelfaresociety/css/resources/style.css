@@ -19,15 +19,14 @@ h1 {
   letter-spacing: 0.2em;
   position: relative;
 }
-
-header h3{
+h3{
   letter-spacing: 0.2em;
+  text-align: center;
   position: relative;
-  margin-top: 16%;
-  margin-left: 10.4%;
   margin-bottom: 2%;
-  color:white;
+  color: white;
 }
+
 
 /*----------------------Header------------------*/
 header{
@@ -86,19 +85,20 @@ ul{
   height:100vh;
   background-color: azure;
   overflow:hidden;
+  width: 100%;
 }
 
 .section-choose h2{
   position:relative;
-  left:41%;
-  margin-top: 3%;
+  text-align: center;
+  margin-top: 9%;
   color:#010;
 }
 
 .card{
-  margin-top: 60px;
-  margin-left:80px;
-  padding:170px 0;
+  margin-top: 9%;
+  margin-left:120px;
+  padding: 10%;
   background-color:beige;
   position:relative;
   border-radius: 5px;
@@ -108,44 +108,45 @@ ul{
 
 .card ion-icon{
   font-size: 50px;
-  margin-top: 10px;
-  left:40%;
-  top:0;
+  margin-top: -37%;
+  width: 94%;
   position:absolute;
 }
 
 .card p{
   position:absolute;
   text-align: center;
-  left:6px;
   line-height: 30px;
+  width: 94%;
 }
 
-.card h3{
-  top:25%;
-  margin-left: 55px;
+.h3{
   position:absolute;
   text-align: center;
+  top:25%;
+  margin-bottom: 2%;
+  width: 94%;
+  color: black;
 }
 
-.card3 p{
-  margin-left: 25px;
-}
 /*------------------------Partner-section--------------------*/
 
 .section-partner h2{
   text-align: center;
-  margin-top:70px;
+  margin-top: 3%;
 }
 
 .section-partner p{
   text-align: center;
+  margin-top: 2%;
 }
 
 .partner-img{
   height:100px;
   width:auto;
-  margin:50px 160px;
+  margin-left: 20%;
+  margin-top: 3%;
+  margin-bottom: 4%;
 }
 
 
@@ -190,7 +191,7 @@ ul{
   color:#2ecc71;
 }
 
-form input{
+.footer form input{
   margin:25px 0;
   background-color:#34495e;
   border:none;

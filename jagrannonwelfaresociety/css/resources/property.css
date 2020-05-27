@@ -6,7 +6,7 @@ body{
 /* Header ************************************************** */
 
 header{
-    height: 70vh;
+    height: 85vh;
     background-image:linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7))
     ,url("https://images.unsplash.com/photo-1560185008-b033106af5c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
     background-size: cover;
@@ -18,55 +18,55 @@ header{
 }
 
 header h1{
-    position:relative;
-    top:25%;
-    left:36%;
+  position:relative;
+  top:25%;
+  text-align: center;
 }
 
-.navbar{
+header .navbar1{
     position: absolute;
-    top:-10%;
     left:60%;
 }
 
-.navbar ul{
+.navbar1 ul{
     list-style: none;
 }
 
-.navbar ul li{
+.navbar1 ul li{
     display:inline-block;
     font-size: 20px;
     margin-right:10px;
 }
 
-.navbar ul li a{
+.navbar1 ul li a{
     text-decoration: none;
     color:#fff;
     transition: ease-in 0.3s;
     padding:5px 10px;
 }
 
-.navbar ul li a:hover{
+.navbar1 ul li a:hover{
     padding:5px 10px;
     background-color: #fff;
     color:#2ecc71;
     border-radius: 2px;
 }
 
-form{
+header form{
     position:relative;
     top:40%;
     left:28%;
     border:none;
 }
 
-#fname{
+header #fname{
     width:40%;
     padding:10px;
+    padding-left: 20px;
     border: none;
 }
 
-#submit-btn{
+header #submit-btn{
     border:none;
     padding:10px 11px;
 }
@@ -83,7 +83,11 @@ section{
 .card-content {
 	background: #ffffff;
 	border: 4px;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  transition: all .2s ease-in-out;
+}
+.card-content:hover{
+  transform: scale(1.04);
 }
 
 .card-img {
@@ -101,24 +105,24 @@ section{
 
 .card-img span {
 	position: absolute;
-    top: 15%;
-    left: 12%;
-    background: #1ABC9C;
-    padding: 6px;
-    color: #fff;
-    font-size: 12px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    transform: translate(-50%,-50%);
+  top: 15%;
+  left: 12%;
+  background: #1ABC9C;
+  padding: 6px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transform: translate(-50%,-50%);
 }
 .card-img span h4{
-        font-size: 12px;
-        margin:0;
-        padding:10px 5px;
-         line-height: 0;
+  font-size: 12px;
+  margin:0;
+  padding:10px 5px;
+  line-height: 0;
 }
 .card-desc {
 	padding: 1.25rem;
@@ -185,11 +189,12 @@ section{
   
   .footer h2{
     color:#2ecc71;
+    margin-bottom: 60px;
+    text-align: left;
   }
   
   .footer p{
     line-height: 30px;
-    margin-top: 10px;
   }
   
   .form-text{
