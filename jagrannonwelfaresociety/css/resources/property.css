@@ -54,7 +54,7 @@ header h1{
     border-radius: 2px;
 }
 
-form{
+.properties{
     position:relative;
     top:40%;
     left:28%;

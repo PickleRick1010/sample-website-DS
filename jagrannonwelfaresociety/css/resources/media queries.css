@@ -6,7 +6,7 @@
         margin-top: 10%;
     }
     .navbar{
-        left:40%;
+        left:37%;
     }
     .navbar li{
         margin: 5px;
@@ -109,6 +109,23 @@
     .image-grid-item:nth-child(4){
         display: none;
     }
+    .properties form{
+        position:relative;
+        top:40%;
+        left:28%;
+        border:none;
+    }
+    
+    #fname{
+        width:40%;
+        padding:10px;
+        border: none;
+    }
+    
+    .properties #submit-btn{
+        border:none;
+        padding:10px 11px;
+    }
   }
 
 
@@ -120,7 +137,7 @@
         margin-top: 5%;
     }
     .navbar{
-        left:54%;
+        left:51%;
     }
     .navbar li{
         margin: 5px;
@@ -359,7 +376,7 @@
     color:#2ecc71;
   }
   
-  form input{
+  .footer form input{
     margin:25px 0;
     background-color:#34495e;
     border:none;
@@ -589,7 +606,7 @@
     color:#2ecc71;
   }
   
-  form input{
+  .footer form input{
     margin:25px 0;
     background-color:#34495e;
     border:none;
