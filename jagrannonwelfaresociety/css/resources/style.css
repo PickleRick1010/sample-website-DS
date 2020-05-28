@@ -24,8 +24,6 @@ h1 {
 header h3{
   letter-spacing: 0.2em;
   position: relative;
-  letter-spacing: 0.2em;
-  position: relative;
   margin-top: 16%;
   margin-left: 10.4%;
   margin-bottom: 2%;
@@ -208,7 +206,6 @@ ul{
 }
 
 .footer div{
-  float:left;
   margin-left: 15px;
   margin-top: 20px;
 }

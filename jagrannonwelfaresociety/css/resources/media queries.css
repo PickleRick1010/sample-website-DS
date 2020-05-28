@@ -1,9 +1,9 @@
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px), screen and (max-height: 600px){
     h1 {
         font-size: 2em !important;
     }
     header h3{
-        margin-top: 6%;
+        margin-top: 10%;
     }
     .navbar{
         left:37%;
@@ -17,10 +17,152 @@
     .section-choose h2{
         font-size: 25px;
     }
+    .card{
+        margin-top: 5%;
+    }
     .card p{
         font-size: smaller;
     }
-    .h3{
+    .card ion-icon{
+        font-size: 24px;
+        margin-left: -10px;
+    }
+    .section h3{
+        top: 30px;
+        margin-left: -10px;
+        font-size: 20px;
+    }
+    .section p{
+        margin-left: -10px;
+        margin-top: -4px;
         font-size: 10px;
     }
+    .section-partner h2{
+        font-size: 30px;
+        margin-top: 70px;
+    }
+    .section-partner p{
+        font-size: 15px;
+    }
+    .footer h2{
+        font-size: smaller;
+    }
+    .footer p{
+        font-size: 10px;
+        line-height: 15px;
+        width: 40%;
+    }
+    .footer div:nth-child(4){
+        position: absolute;
+        margin-top: 2.5%;
+        margin-left: 40%;
+    }
+    .footer div:nth-child(2){
+        display: none;
+    }
+    .footer div:nth-child(3){
+        display: none;
+    }
+    .footer-nav a{
+        font-size: 10px;
+    }
+    .footer ol{
+        margin-top: -45px;
+    }
+    .footer ol li{
+        font-size: 10px;
+    }
+    .footer-nav a{
+        margin-right: 20px;
+    }
+    .footer form{
+        margin-top: -10%;
+    }
+    .copyright{
+        font-size: smaller;
+        right: -200px;
+    }
   }
+
+
+/* @media screen and (max-width: 1024px), screen and (max-height: 600px),screen and (min-width: 801px), screen and (min-height: 601px) {
+    h1 {
+        font-size: 2em !important;
+    }
+    header h3{
+        margin-top: 10%;
+    }
+    .navbar{
+        left:54%;
+    }
+    .navbar li{
+        margin: 5px;
+    }
+    .navbar li a{
+        font-size: 16px;
+    }
+    .section-choose h2{
+        font-size: 25px;
+    }
+    .card{
+        margin-top: 5%;
+        margin-left: 65px;
+    }
+    .card p{
+        font-size: smaller;
+    }
+    .card ion-icon{
+        font-size: 30px;
+        margin-left: -10px;
+        margin-top: -40%;
+    }
+    .section h3{
+        top: 30px;
+        margin-left: -10px;
+        font-size: 20px;
+    }
+    .section p{
+        margin-left: -10px;
+        margin-top: -4px;
+        font-size: 10px;
+    }
+    .section-partner h2{
+        font-size: 30px;
+        margin-top: 70px;
+    }
+    .section-partner p{
+        font-size: 15px;
+    }
+    .footer h2{
+        font-size: smaller;
+    }
+    .footer p{
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: -35px;
+        width: 40%;
+    }
+    .footer-nav a{
+        font-size: 10px;
+    }
+    .footer ol li{
+        font-size: 10px;
+    }
+    .footer-nav a{
+        margin-right: 20px;
+    }
+    .footer form{
+        margin-top: -10%;
+    }
+    .copyright{
+        font-size: smaller;
+        right: -200px;
+    }
+    .partner-img{
+        margin-left: 15.7%;
+    }
+    .form-text{
+        font-size: smaller;
+    }
+}
+ */
